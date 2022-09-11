@@ -22,7 +22,7 @@ class Myapp extends StatelessWidget {
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
-  final String name = " New app ";
+  final String name = " modified app ";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
