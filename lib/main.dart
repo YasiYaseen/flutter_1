@@ -72,20 +72,20 @@ class HomeScreen extends StatelessWidget {
                 )),
               ),
             ),
-            Expanded(
-                child: Container(
-              decoration: BoxDecoration(
-                color: Colors.green,
-                borderRadius: BorderRadius.circular(100),
-                border: Border.all(
-                  color: Colors.red,
-                  width: 5,
-                ),
-              ),
-              child: Center(
-                child: Text('simple text'),
-              ),
-            )),
+            // Expanded(
+            //     child: Container(
+            //   decoration: BoxDecoration(
+            //     color: Colors.green,
+            //     borderRadius: BorderRadius.circular(100),
+            //     border: Border.all(
+            //       color: Colors.red,
+            //       width: 5,
+            //     ),
+            //   ),
+            //   child: Center(
+            //     child: Text('simple text'),
+            //   ),
+            // )),
             Expanded(
               child: Container(
                 color: Colors.white,
